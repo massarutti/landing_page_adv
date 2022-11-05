@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root {
+  --primary-color: #f7eeef;
+  --text-color-primary: rgba(255, 255, 255, 0.815);
+  --icon-color-primary: #3a4d39;
+  --link-color: #037c30ad;
+  --link-color-hover: #037c2ff1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.navbar {
+  max-width: 80%;
+  height: 200px;
+  margin: auto;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar p img {
+  width: 200px;
+}
+
+.sec_apres {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.658)),
+    url(./img/img_001.jpg);
+  max-width: 80%;
+  height: 85vh;
+  margin: 10px auto;
+}
+
+.apres_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.apres_content div h1 {
+  color: var(--text-color-primary);
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.apres_content div p {
+  width: 50%;
+  text-align: justify;
+  margin-top: 40px;
+  color: var(--text-color-primary);
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.apres_content i {
+  margin-right: 20px;
+}
+
+a {
+  color: var(--text-color-primary);
+  background-color: var(--link-color);
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--link-color-hover);
+}
+
+.sec_espec {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  height: 85vh;
+  margin: 10px auto;
+}
+
+.espec_1 {
+  margin: 20px auto;
+}
+
+.espec_1 h2 {
+  color: rgba(0, 0, 0, 0.774);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.espec_1 p {
+  font-weight: 600;
+}
+
+.espec_2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 100px auto;
+}
+
+.espec_2 i {
+  font-size: 50px;
+  color: var(--icon-color-primary);
+}
+
+.espec_2_ps {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.espec_2_pc {
+  display: flex;
+}
